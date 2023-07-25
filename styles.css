@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Lobster&family=Poppins:wght@200;300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+
+body{
+    width: 100%;
+    font-family: 'popins',Arial, Helvetica, sans-serif;
+ 
+}
+
+.logo{
+      font-family: 'Lilita One', cursive;
+      font-size: 25px;
+      padding: 5PX;
+      margin-left: 10px;
+      align-items: center;
+     
+}
+.logo:hover{
+    color: orangered;
+    cursor: pointer;
+    transition: .2s;
+}
+li{
+    padding: 5px;
+}
+.nav-link{
+    font-weight: bolder;
+    font-size: 16;
+    border: 1px solid transparent;
+}
+.nav-link:hover{
+   border-bottom:2px solid orangered;
+   transition: .1s;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 590px;
+    display: block;
+}
+
+
+#about{
+   
+    padding: 50px;
+    background-color: #9fd3c7;
+}
+#para{
+    text-align: justify;
+}
+
+#services{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+padding:100px;
+background-color: #dde0ab;
+}
+#Testimonial{
+    display: grid;
+    padding-top: 30px;
+    background-color: #fbf2d5;
+}
+
+.card:hover{
+    background-color:blue;
+}
+#in-la{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn-1{
+    display: block;
+    margin-left:100px ;
+}
+form{
+    padding: 50px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2),-1px -1px 5px rgba(0,0,0,0.5);
+    border-radius: 30px;
+    margin: 50px;
+}
+footer{
+    background-color: #bcdbdf;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+}
